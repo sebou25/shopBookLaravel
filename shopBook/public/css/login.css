@@ -1,0 +1,70 @@
+body{
+    font-family: 'Abel', sans-serif;
+
+}
+.panierNav2{
+    display: none;
+}
+h2 {
+    text-align: center;
+    color: #0cadbf;
+}
+.navbar-laravel .backaccueil a:hover{
+    color: #0cadbf;
+}
+.navbar-laravel .backaccueil a{
+    color: white;
+}
+.navbar-laravel {
+    background-color: black;
+}
+.bgColor{
+    background-color: black;
+    color: white;
+}
+.bgColorTitre{
+    background-color:  #0cadbf;
+    color: white;
+}
+.btonLogin{
+    background-color: #0cadbf;
+    color: white;
+}
+.carréLog{
+    margin-top: 12%;
+}
+
+.delbt button {
+    color: white;
+    background-color: black;
+    border-color: #0cadbf;
+
+}
+.delbt button:hover {
+    color: darkred;
+    background-color: #0cadbf;
+    border-color: black;
+    transition-duration: .2s;
+    transition-timing-function: linear;
+}
+.btNoDelet button {
+    color: white;
+    background-color: black;
+    border-color: #0cadbf;
+}
+.btNoDelet button:hover {
+    color: white;
+    background-color: #0cadbf;
+    border: 2px solid darkred;
+    transition-duration: .2s;
+    transition-timing-function: linear;
+}
+.btYesDelet a:hover{
+    border: 2px solid darkred ;
+}
+
+.message{
+    /*margin-top: 260px;*/
+    z-index: 0;
+
+}

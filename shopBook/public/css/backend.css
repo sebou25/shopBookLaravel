@@ -1,0 +1,226 @@
+body {
+    font-family: 'Abel', sans-serif;
+}
+.feather {
+    width: 16px;
+    height: 16px;
+    vertical-align: text-bottom;
+}
+
+/*
+ * Sidebar
+ */
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100; /* Behind the navbar */
+    padding: 48px 0 0; /* Height of navbar */
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+.sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: .5rem;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+    .sidebar-sticky {
+        position: -webkit-sticky;
+        position: sticky;
+    }
+}
+
+.sidebar .nav-link {
+    font-weight: 500;
+    color: #333;
+}
+
+.sidebar .nav-link .feather {
+    margin-right: 4px;
+    color: #999;
+}
+
+/*.sidebar .nav-link.active {*/
+    /*color: #007bff;*/
+/*}*/
+
+.sidebar .nav-link:hover .feather,
+.sidebar .nav-link.active .feather {
+    color: inherit;
+}
+
+.sidebar-heading {
+    font-size: .75rem;
+    text-transform: uppercase;
+}
+
+/*
+ * Content
+ */
+
+[role="main"] {
+    padding-top: 48px; /* Space for fixed navbar */
+}
+
+/*
+ * Navbar
+ */
+
+.navbar-brand {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    font-size: 1rem;
+    background-color: #299ac5;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+}
+
+.navbar .form-control {
+    padding: .75rem 1rem;
+    border-width: 0;
+    border-radius: 0;
+}
+
+.form-control-dark {
+    color: #fff;
+    background-color: rgba(255, 255, 255, .1);
+    border-color: rgba(255, 255, 255, .1);
+}
+
+.form-control-dark:focus {
+    border-color: transparent;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+}
+
+/*
+ * Utilities
+ */
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.bg-red {
+    background-color: black!important;
+    height: 10%;
+}
+.table-dark {
+    color: #fff;
+    background-color: #299ac5;
+
+}
+.table-dark thead th {
+    border-color: #1f7394;
+}
+
+.table-info, .table-info>td, .table-info>th {
+    background-color: #ebf7f9;
+}
+
+.table td, .table th {
+    border-top: 1px solid #e5f4f7;
+}
+.colorCatid{
+    color : #299ac5;
+}
+.form-control-file, .form-control-range {
+    width: 180%;
+}
+label{
+    font-weight: bolder;
+}
+.newProdAdmin a{
+    color: white;
+
+    background-color:#299ac5 ;
+    border-radius: 3px;
+    border: black solid 1px;
+}
+.newProdAdmin a:hover{
+    color: black;
+    border: #299ac5 solid 1px;
+    background-color:white ;
+}
+[role="main"] {
+    padding-bottom: 20px;
+}
+.form-check-inline .form-check-input {
+    position: static;
+    margin-top: 0;
+    margin-right: .3125rem;
+    margin-left: 5px;
+}
+.logoBackCommande{
+    border-radius: 0 50px 50px 0;
+    padding: 0 190px;
+}
+.navCommandeGauche{
+    margin-top: 20px;
+
+}
+.topContenaireCommande{
+    margin-top: 20px;
+}
+.navCommandeGauche a:hover{
+    background-color:#299ac5 ;
+    color: white;
+    border-radius: 0 50px 50px 0;
+    border: black 1PX solid;
+
+    transition-duration: .3s;
+    transition-timing-function: linear;
+}
+.btn-outline-danger:hover {
+    color: #fff;
+    background-color: #866b6d;
+    border-color: #dc3545;
+}
+.btn-outline-danger {
+    color: #c5616b;
+    background-color: transparent;
+    background-image: none;
+    border-color: #c5616b;
+}
+.btn-outline-info:hover {
+    color: #fff;
+    background-color: #81afb7;
+    border-color: #299ac5;
+}
+.btlisteCommande{
+    margin-left:780px ;
+
+}
+.jumbotron{
+    margin-top: 10px;
+}
+@media screen and (max-width :1024px) {
+    .navLatAdmin{
+        margin-top: 50px;
+    }
+
+    [role="main"] {
+        padding-top: 75px;
+    }
+}
+@media screen  and (min-width: 1024px  ) and (max-width :1366px) {
+    .navLatAdmin{
+        margin-top: 60px;
+    }
+
+    [role="main"] {
+        padding-top: 120px;
+    }
+}
+@media screen and (max-width :667px) {
+.quitter ul li a{
+    background-color:#299ac5 ;
+    border-radius: 5px 5px;
+    padding: 0;
+    margin-bottom: 12px;
+}
+}

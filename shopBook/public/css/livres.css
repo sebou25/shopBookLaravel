@@ -1,0 +1,597 @@
+body{
+    font-family: 'Abel', sans-serif;
+
+}
+.bg-red {
+    background-color: #0cadbf!important;
+    margin-top: 25px;
+
+}
+.text-center {
+    margin-top: 210px;
+    margin-bottom: 35px;
+}
+.text-centerPaie{
+    margin-top: 390px;
+    margin-bottom: 15px;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 1);
+    margin-top: 105px;
+    margin-left: 50px;
+    font-size: larger;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: black;
+    transition-duration: .3s;
+    transition-timing-function: linear;
+    font-weight: 900;
+}
+
+.fixed-top {
+    z-index: 3;
+}
+.nav2{
+    z-index: 2;
+    height: 160px;
+}
+
+.bg-dark {
+    background-color: #000000 !important;
+    /*border-bottom-right-radius: 250px 100px;*/
+    border-bottom-left-radius: 140px 100px;
+    padding: 25px;
+}
+.fin_text{
+    color: goldenrod;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    color: #0cadbf;
+    content: "/";
+}
+.breadcrumb a {
+    color: #0cadbf;
+}
+
+.breadcrumb-item.active {
+    color: black;
+
+}
+/*bouton view produit*/
+.btn-outline-secondary {
+    color: #000000;
+    background-image: none;
+    border-color: black ;
+    background: #0cadbf;
+}
+.btn-outline-secondary:hover {
+    border-color:#0cadbf ;
+    background-color: black;
+}
+
+/*bouton commander*/
+.btn-cart {
+    color: white;
+    border-color: #0cadbf;
+    background-color: black;
+
+}
+.btn-cart:hover {
+
+    color: white;
+    background-color: #0cadbf;
+    border-color: black;
+    transition-duration: .2s;
+    transition-timing-function: linear;
+}
+.btn:not(:disabled):not(.disabled) {
+    transition-duration: .2s;
+    transition-timing-function: linear;
+}
+.connexion a{
+    color:white;
+}
+.connexion a:hover{
+    color:#0cadbf;
+}
+
+/*.espacepanier{*/
+    /*margin-left: 1085px;*/
+    /*position: relative;*/
+    /*margin-top: 5px;*/
+/*}*/
+.espace_lien_nav{
+    margin-left: -90px;
+    position: absolute;
+    background-color:#0cadbf ;
+    /*width: 160px;*/
+}
+.text_intro{
+    font-size: x-large;
+}
+.badge-primary {
+    color: #fff;
+    background-color: #0cadbf;
+}
+.border_t_p{
+border-top: solid 1px black;
+border-bottom: solid 1px black;
+padding-top: 30PX;
+padding-bottom: 30px;
+}
+.titre_site{
+    margin-left: 8px;
+    margin-top: 5px;
+}
+.bg-light {
+    background-color: azure!important;
+}
+footer{
+    background-color: black;
+}
+.foot{
+    color: white;
+}
+.foot p a {
+    color: white;
+}
+footer a:hover{
+    text-decoration: none;
+    color: #0cadbf;
+    font-weight: bolder;
+    transition-duration: .2s;
+    transition-timing-function: linear;
+
+}
+.p_produit{
+    font-size: 17px;
+
+}
+
+.card-img-top{
+    border: solid 15px #0CADBE;
+    padding: 15px;
+}
+.card-img-top1 {
+
+    padding: 25px;
+    height: fit-content;
+}
+.card-img-topAime{
+    margin-top: 25px;
+}
+.arial {
+    margin-top: 175px;
+    z-index: 1;
+}
+.arial ol{
+    height: 50px;
+}
+.breadcrumb a {
+    color: #0cadbf;
+    text-decoration: none;
+}
+.breadcrumb a:hover {
+    color: black;
+    text-decoration: none;
+    transition-duration: .2s;
+    transition-timing-function: linear;
+    font-weight: bolder;
+}
+
+.toproduit {
+    margin-top: 300px;
+    margin-bottom: 50px;
+}
+.py-3{
+    margin-top: 250px;
+    margin-bottom: 50px;
+
+}
+.col-md-3 {
+
+    flex: 0 0 38%;
+    max-width: 100%;
+}
+.card-img-top2{
+border: solid 10px #0cadbf;
+    padding: 15px;
+    height: 500px;
+}
+.contenuProdCat h2{
+    font-size: 21px;
+}
+.backazur{
+    background-color: azure;
+}
+
+.bgCat a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid #0cadbf;
+    padding: 2px 5px;
+    margin-left: -10px;
+    font-size: 15px;
+}
+.bgCat a:hover{
+    color: white;
+    background-color: #0cadbf;
+    border: 1px solid black;
+    transition-duration: .4s;
+    transition-timing-function: linear;
+}
+.col-6 {
+    max-width: 40%;
+    margin-right: 60px;
+    margin-left: 50px;
+}
+.col-6 h2{
+    margin-top: 20px;
+}
+.tags a {
+    margin-left: 0;
+    padding: 1px 10px;
+}
+
+hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.corpanier{
+    margin-top: 170px;
+}
+
+.produitRecommande{
+    padding: 20px 10px;
+}
+.col-sm-4 {
+    max-width: initial;
+}
+.card {
+    margin-top: 40px;
+    height: auto;
+    width: 100%;
+}
+.qteprod{
+    margin-bottom: 20px;
+}
+.card2{
+    margin-bottom: 40px;
+    margin-top: 40px;
+    /*height: 400px;*/
+}
+.cardproduitunité{
+    margin-left: 100px;
+    margin-top: 70px;
+    width: 55%;
+}
+.navbar-light .navbar-brand {
+    color: white;
+    margin-left: 60px;
+}
+.accueil{
+    position: relative;
+    margin-top: 120px;
+}
+.navbar-light .navbar-brand:hover {
+    color: black;
+    transition-duration: .2s;
+    transition-timing-function: linear;
+    font-weight: bolder;
+}
+.lienAriane a{
+    color:black;
+}
+.lienAriane a:hover{
+    color:#0cadbf;
+}
+.rounded-circle {
+    border-radius: 10%!important;
+}
+.btCommande:hover{
+    background-color: black;
+    color: white;
+    border-color:#0cadbf ;
+    transition-duration: .2s;
+    transition-timing-function: linear;
+    font-weight: bolder;
+}
+.btCommande{
+    background-color: #0cadbf;
+    color: white;
+    border:black solid 2px ;
+    font-weight: bolder;
+}
+
+.badge-warning  {
+    color: white;
+    background-color: black;
+
+}
+ .textPanier .badge{
+    margin-bottom: 20px;
+    border: #0cadbf 4px double;
+    border-radius: 10px 40px;
+     color: white;
+     background-color: black;
+}
+
+.refresh:hover{
+    color: #0cadbf;
+    transition-duration: .2s;
+    transition-timing-function: linear;
+    border-color:   #0cadbf;
+}
+.refresh{
+    margin-top: 6px;
+    border-radius: 3px;
+    cursor: pointer
+}
+.titrePanier{
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.delbt button {
+    color: white;
+    background-color: black;
+    border-color: #0cadbf;
+
+}
+.delbt button:hover {
+    color: darkred;
+    background-color: #0cadbf;
+    border-color: black;
+    transition-duration: .2s;
+    transition-timing-function: linear;
+}
+.btNoDelet button {
+    color: white;
+    background-color: black;
+    border-color: #0cadbf;
+}
+.btNoDelet button:hover {
+    color: white;
+    background-color: #0cadbf;
+    border: 2px solid darkred;
+    transition-duration: .2s;
+    transition-timing-function: linear;
+}
+.btYesDelet a:hover{
+    border: 2px solid darkred ;
+}
+
+.message{
+    /*margin-top: 260px;*/
+    z-index: 0;
+
+}
+
+.navAriane nav {
+    margin-top: 185px;
+}
+.navArianeIdenti{
+    margin-top: 130px;
+}
+.navArianeAdresse{
+    margin-top: 130px;
+}
+.mt-3, .my-3 {
+    margin-top: 11rem!important;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #0cadbf ;
+    border: 1px solid black ;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: black;
+    border: 1px solid #0cadbf ;
+}
+.btn-link{
+    color: black;
+}
+.btn-link:hover {
+    color: darkred;
+     text-decoration: none;
+    /* background-color: transparent; */
+    /* border-color: transparent; */
+}
+.adressFootBotom{
+    margin-bottom: 50px;
+}
+.fa-studiovinari{
+    font-size: 120px;
+}
+.boutAccedeP{
+    color: white;
+    background-color: #0cadbf;
+    border: black 2px solid;
+    margin-bottom: 50px;
+}
+.boutAccedeP:hover{
+    color:white ;
+    background-color: black;
+    border: #0cadbf 2px solid;
+    margin-bottom: 50px;
+}
+.titrePaiement{
+    margin-top: 20px;
+}
+.navaraine{
+    margin-top: 0;
+}
+.navarainePaie{
+    margin-top: -50px;
+    position: fixed;
+    width: 100%;
+}
+.conteneurCol {
+    width: 100%;
+    height: 140px;
+    background-color: #0cadbf;
+    position: fixed;
+    margin-top: 0;
+    z-index: 2;
+}
+.conteneurColAdresse{
+    width: 100%;
+    height: 140px;
+    background-color: #0cadbf;
+    position: fixed;
+    margin-top: -200px;
+    z-index: 2;
+}
+.conteneurColPaie{
+    width: 100%;
+    height: 140px;
+    background-color: #0cadbf;
+    position: fixed;
+    margin-top: -190px;;
+    z-index: 2;
+}
+.textpaiement{
+    margin-top: -210px;
+}
+
+.navarainePanier {
+    margin-top: 15px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+/*.btn,.fa-trash:hover{*/
+    /*color: darkred;*/
+/*}*/
+.mt-3, .my-3 {
+    margin-top: 15rem!important;
+}
+.fa-cc-stripe{
+font-size: 65px;
+}
+.merci h2{
+
+    margin-top: 15px;
+}
+.merci .text-center {
+    margin-top: 180px;
+    margin-bottom: -40px;
+}
+.topMailMerci{
+    margin-top: 60px;
+}
+.cardMail {
+    margin-bottom: 0;
+    margin-top: 40px;
+    height: 890px;
+    border: 1px solid #dee2e6;
+    width: 140%;
+    margin-left: -100px;
+}
+
+.nav3 {
+    z-index: 2;
+    height: 135px;
+}
+.navbar-toggler:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    margin-top: 100px;
+}
+.dejaClient, .newClient
+{
+    background-color: black;
+    color: white;
+    border: #0cadbf 2px solid;
+    border-radius: 60px 2px 25px 0;
+}
+
+
+    .espacepanier{ margin-top: 110px;
+    z-index: 3;
+    margin-left: auto;
+        color: white;
+}
+.espacepanier:hover{ margin-top: 100px;
+    transition-duration: .2s;
+    transition-timing-function: linear;
+    color: black;
+}
+/*.espacepanier a{*/
+
+    /*margin-left: 35px;*/
+    /*margin-top: -85px;*/
+/*}*/
+
+
+
+
+
+.espacepanierTop{
+    display: none;
+}
+.produitAime{
+padding-right: 50px;
+padding-left: 50px;
+}
+.produitAime  h2{
+    font-size: 21px;
+}
+.btVoirAime {
+    margin-right: -34px;
+}
+
+@media screen and (max-width :992px) {
+    .espacepanierTop{
+   display: block;
+        color: white;
+    }
+    .espacepanierTop:hover{
+
+        color: #0cadbf;
+    }
+    .espacepanier{
+        display: none;
+    }
+    .espace_lien_nav {
+        margin-left: 10px;
+        position: absolute;
+        background-color: #0cadbf;
+        width: 190px;
+    }
+    .bg-dark {
+        border-bottom-left-radius: 0 0;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: rgba(255, 255, 255, 1);
+        margin-top: 10px;
+        margin-left: 50px;
+        font-size: larger;
+        transition-duration:.3s;
+        transition-timing-function: linear;
+    }
+    .cardproduitunité {
+        margin-left: 70px;
+    }
+
+}
+@media screen and (max-width :568px ) {
+    .bg-dark{
+        padding: 8px;
+        border-bottom-left-radius: 0 0;
+    }
+    .connexion a {
+        color: white;
+        margin-left: -20px;
+    }
+
+
+}
